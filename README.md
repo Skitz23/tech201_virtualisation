@@ -58,6 +58,12 @@ Open cmd.exe
 
 Initialize Ruby DevKit
 
+How to set up ruby: https://rubyinstaller.org/downloads/
+
+How to set up virtual box: https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
+
+How to set up vagrant: https://www.vagrantup.com/
+
 
 
 
