@@ -20,5 +20,21 @@
 - Robustness
 - Ease of use
 
+# Development Enviroments
+A development environment in software and web development is a workspace for developers to make changes without breaking anything in a live environment. 
+
+# Why do we use Development Enviroment
+
+We want to be in control
+
+# What makes a good Development Enviroment?
+- User friendly and robust
+- It should be easy to update
+- It should match the production enviroment as closley as possible
+- It should be the same for everyone, everywhere
+- It should only support one application otherwise alot of conflics can be caused
+
+
+
 
 
