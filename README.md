@@ -2,15 +2,23 @@
 
 ## DevOps
 
-Google changes their air cooling system 5 times
-
-Flexibility
-It can get locked into using a specific product, tool or software.
-
-Cost
-cost is often overlooked we need to makre sure companys are as efficient as possible in it's tech dealing.
+# Problems DevOps engineers fix
+- Environment provisioning
+- Test data
+- Manual deployments
+- DevOps and suppliers
+- DevOps and governance
+- No integrated tools architecture
 
 # Infustructure and archetecture
+
+- Microservices - breaking up the application as well as they way its sent out into users onto many machines. Containers allow us to implement a microservice architecture
+
+# What problems do DevOps look to fix?
+- Cost
+- Flexibility
+- Robustness
+- Ease of use
 
 
 
