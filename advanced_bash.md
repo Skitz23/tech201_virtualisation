@@ -30,6 +30,40 @@ rm new_file.txt
 # How to delete a folder?
 rm -rf new_folder
 
+# Linux permissions:
+- r (read) you may view the content of thw file.
+- w (write) you may change the content of the file.
+- x (excute) you may excute or run the file if it is a program or a script
+- owner - group - other/All
+- u stands for user
+- g stands for group
+- o stands for owner
+
+user - group - other
+
+            Read write Excute
+
+settings:     0    0     0
+Binary value: 4    2     1
+
+4 + 2 + 1 = 7
+777 -> All permissions for all users/groups/others
+
+755 -> User can do everything, group and other can read and excute
+
+
+# How to install Tree?
+
+```
+sudo apt-get update -y
+sudo apt install tree -y
+tree
+```
+
+
+
+
+
 
 
 
