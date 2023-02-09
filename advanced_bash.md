@@ -13,22 +13,36 @@
 - grep is used to search
 
 # how to copy the contents of a new folder into another new folder?
+```
 cp -rf new_folder new_folder2
+```
 
 # What does rsync do?
 Rsync is a free software utility for Unix- and Linux-like systems that copies files and directories from one host to another
 
+```
+rsync -r nameofthefirstfolder nameofthenewfolder
+```
+
 # How to move files into an exsisting folder
+```
 mv myfile2.txt new_folder/
+```
 
 # Relative path
+```
 Folder1\Folder2\file.txt relative to directory you are in
+```
 
 # How to delete a file?
+```
 rm new_file.txt
+```
 
 # How to delete a folder?
+```
 rm -rf new_folder
+```
 
 # Linux permissions:
 - r (read) you may view the content of thw file.
@@ -39,17 +53,14 @@ rm -rf new_folder
 - g stands for group
 - o stands for owner
 
-user - group - other
 
-            Read write Excute
+![](image.png)
 
-settings:     0    0     0
-Binary value: 4    2     1
 
-4 + 2 + 1 = 7
-777 -> All permissions for all users/groups/others
 
-755 -> User can do everything, group and other can read and excute
+# Absolute path
+
+![](Absoulute.png)
 
 
 # How to install Tree?
@@ -68,6 +79,17 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install nodejs -y
 sudo npm install pm2 -g
 ```
+
+
+# Installing nginx
+
+```
+sudo apt-get install nginx -y
+sudo systemctl enable/* nginx
+```
+
+
+
 
 
 
