@@ -94,6 +94,15 @@ sudo systemctl enable/* nginx
 - chmod 777 gives permission for everyone.
 
 
+# How to destroy Vagrant?
+
+```
+Vagrant destroy -y
+```
+
+# Provisining
+- Can be abit slow
+
 
 
 

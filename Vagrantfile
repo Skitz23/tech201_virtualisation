@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "app", "/home/vagrant/app"
 
   # Provisioning
-
+  config.vm.provision "shell", path: "provision.sh"
   
 
 end
