@@ -88,6 +88,10 @@ sudo apt-get install nginx -y
 sudo systemctl enable/* nginx
 ```
 
+# Chmod
+- chmod is used to change permissions for example chmod u+x file.txt
+- u for users/owner, g for group and o for other.
+- chmod 777 gives permission for everyone.
 
 
 
